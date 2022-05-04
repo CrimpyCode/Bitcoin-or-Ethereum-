@@ -1,0 +1,49 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro',sans-serif;
+  color:whitesmoke
+}
+
+div {
+  DISPLAY: flex;
+  justify-content: center;  
+}
+
+h1.coinname {
+  display: flex;
+  justify-content: center;
+}
+
+button.bitcoin {margin: 1.5em 1.5em;;;border-radius: 50px;color: RGB(36 56 115);background: rgba(121,121,121,.3);}
+
+button.ethereum {margin: 1.5em 1.5em;color: #ff5722;background: rgba(121,121,121,.3);border-radius: 50px;}
+
+p.description {/* max-width: 400px; */display: flex;justify-content: center;margin: 2em 8em;/* max-width: 400px; */}
+
+h2.id {justify-content: center;display: flex;}
+
+h2.price {display: flex;justify-content: center;}
+
+h3.otherFinInfo {display: flex;justify-content: center;}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
